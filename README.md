@@ -57,12 +57,11 @@
 Node.js (v16 이상)
 npm 또는 yarn
 
-
 ## 🚀 설치 및 실행
 
 ```bash
 # 1. 레포지토리 클론
-git clone https://github.com/lucy-kim04/ArtistCompany.git
+git clone https://github.com/lucykim05/ArtistCompany.git
 
 # 2. 디렉토리 이동
 cd ArtistCompany
@@ -74,20 +73,17 @@ npm install
 npm run dev
 ```
 
-
-
-
 ---
 
 ## 🌟 주요 기능
 
 🎨 **홈페이지 리디자인** – 기존 사이트를 현대적인 UI/UX로 개선 및 취약점 개선
 
-🧑‍🎤 **배우 소개 페이지** – 프로필, 생일, 데뷔작, 이미지 제공  
+🧑‍🎤 **배우 소개 페이지** – 프로필, 생일, 데뷔작, 이미지 제공
 
-📰 **뉴스 섹션** – 외부 뉴스 링크의 메타데이터 카드 구성  
+📰 **뉴스 섹션** – 외부 뉴스 링크의 메타데이터 카드 구성
 
-📺 **유튜브 콘텐츠** – Supabase에 저장된 유튜브 영상을 썸네일 카드로 제공  
+📺 **유튜브 콘텐츠** – Supabase에 저장된 유튜브 영상을 썸네일 카드로 제공
 
 📱 **반응형 지원** – PC/Mobile에 따라 슬라이드 및 카드 최적화
 
@@ -96,7 +92,7 @@ npm run dev
 ## 👩‍💻 개발자 정보
 
 **이름**: 김희주 (Lucy Kim)
-**GitHub**: [lucy-kim04](https://github.com/lucy-kim04)
+**GitHub**: [lucykim05](https://github.com/lucykim05)
 **이메일**: effelt0905@gmail.com
 **Notion**: [프로젝트 노션 페이지](https://amplified-pot-cae.notion.site/ArtistCompany-1dd75c00010a800a9663eaefbaf45db8)
 
@@ -114,7 +110,5 @@ npm run dev
 뭘 느껴야하지 supabase 연동에서 헤매면서 BE 공부의 필요성을 느꼈다?
 
 ---
-
-
 
 </div>
