@@ -1,9 +1,9 @@
-<div align="center">
+
 
 # 🎬 Artist Company Re-design
 
 <img 
-  src="https://raw.githubusercontent.com/lucy-kim04/ArtistCompany/develop/public/images/logo-crop.png"  />
+  src="https://raw.githubusercontent.com/lucykim05/ArtistCompany/develop/public/images/logo-crop.png"  />
 
 ## 🔧 Tech Stack
 
@@ -77,23 +77,58 @@ npm run dev
 
 ## 🌟 주요 기능
 
-🎨 **홈페이지 리디자인** – 기존 사이트를 현대적인 UI/UX로 개선 및 취약점 개선
+🎨 **홈페이지 리디자인** — 현대적인 UI/UX로 개선 및 취약점 대응 방안 반영
 
-🧑‍🎤 **배우 소개 페이지** – 프로필, 생일, 데뷔작, 이미지 제공
+🧑‍🎤 **배우 소개 페이지** — 프로필/생일/데뷔작/이미지 제공
 
-📰 **뉴스 섹션** – 외부 뉴스 링크의 메타데이터 카드 구성
+📰 **뉴스 섹션** — 외부 뉴스 링크 메타데이터 카드 구성
 
-📺 **유튜브 콘텐츠** – Supabase에 저장된 유튜브 영상을 썸네일 카드로 제공
+📺 **유튜브 콘텐츠** — Supabase에 저장된 영상 메타로 썸네일 카드 제공
 
-📱 **반응형 지원** – PC/Mobile에 따라 슬라이드 및 카드 최적화
+📱 **반응형 지원** — PC/Mobile에 따라 슬라이드 및 카드 최적화
+
+<br>
+
+## ✨ 변경 사항 하이라이트 (What’s Changed)
+
+**[신규] Admin 콘솔**: 뉴스/스케줄을 웹에서 직접 등록·관리
+
+**[신규] YouTube 동기화**: `/api/sync-youtube` 접속 시 최신 영상 메타 갱신
+
+**[개선] 뉴스 카드**: 외부 기사 URL 메타데이터(제목/요약/작성일) 자동 수집
+
+**[개선] 반응형 레이아웃**: PC/Mobile 전용 그리드 & 캐러셀 최적화
+
+**[개선] 내비게이션**: Artist/Film 상세 간 좌우 이동 + 사이드 메뉴
+
+**[안정성] 에러 페이지**: 커스텀 404/500으로 내부 정보 노출 최소화
+
+**[정리] 라우트 표준화**: `shedule` → `schedule` 오타 수정
+
+<br>
+
+## 🔐 보안/운영 상의 결정(리디자인 반영)
+> 공개적으로 확인 가능한 이슈를 **기획 관점**에서 대응. 침투/스캔 등은 수행하지 않음.
+
+**관리자 경로 보호**: `/admin` 전 구간 미들웨어 인증
+
+**비밀정보 외부화**: 관리자 비밀번호/서비스 키는 `.env.local`로만 관리(코드/문서 평문 노출 금지)
+
+**오류 응답 최소화**: 커스텀 404/500 적용으로 내부 스택/구조 노출 방지
+
+**인증 실패 메시지 통일**: 계정/비번 유추 방지(“인증 실패”로 단일화)
+
 
 ---
 
 ## 👩‍💻 개발자 정보
 
 **이름**: 김희주 (Lucy Kim)
+
 **GitHub**: [lucykim05](https://github.com/lucykim05)
-**이메일**: effelt0905@gmail.com
+
+**이메일**: effelt0522@naver.com
+
 **Notion**: [프로젝트 노션 페이지](https://amplified-pot-cae.notion.site/ArtistCompany-1dd75c00010a800a9663eaefbaf45db8)
 
 ---
@@ -105,10 +140,3 @@ npm run dev
 
 ---
 
-## 📝 회고 및 느낀 점
-
-뭘 느껴야하지 supabase 연동에서 헤매면서 BE 공부의 필요성을 느꼈다?
-
----
-
-</div>
